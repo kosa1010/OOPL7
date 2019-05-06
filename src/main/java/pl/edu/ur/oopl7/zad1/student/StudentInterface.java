@@ -12,7 +12,7 @@ public interface StudentInterface {
 
     void setYear(int year);
 
-    int getIindexNumber();
+    int getIndexNumber();
 
     String getTypeOfStudies();
 
