@@ -169,7 +169,7 @@ Zaimplementuj klasę `Point3D` stanowiącą rozszerzenie klasy `Point2D`.
 Klasa `Point3D` powinna:
 
 * Posiadać wszystkie cechy klasy `Point2D` a ponadto zostać rozszeżona o dodatkowe pole opisujące trzeci wymiar `z` (konstruktor zparametryzowany powinien posiadać obsługę dodatkowego pola)
-* Posiadać prześłoniętą metode `RandomPoint` z klasy `Point2D` tak aby losowała również trzeci wymiar
+* Posiadać przesłoniętą metode `RandomPoint` z klasy `Point2D` tak aby losowała również trzeci wymiar
 * Przesłoniętą metodę `toString()` tak aby wyświetlała informacje o współrzędnych punktu w przestrzeni
 
 W klasie `Main` utwórz obiekty obu klas i przetestuj działanie. Następnie utwórz dwie tablice 100-elementowe, jedna dla klasy `Point2D` o nazwie `array2D`, a druga dla klasy `Point3D` o nazwie `array3D`. W obydwu tablicach wylosuj dla wszystkich elementów punkty przy użyciu utworzonych wcześniej metod. Sprawdź czy w tablicy `array3D` i `array2D` istnieją elementy mające wspólne składowe (x,y) tj. istnieją punkty `point2D(x1,y1)` i `point3D(x2,y2,z2)`, takie że x1=x2 i y1=y2. Jeśli takie pary istnieją wypisz je na ekranie (wykorzystaj metodę `toString()`. 
