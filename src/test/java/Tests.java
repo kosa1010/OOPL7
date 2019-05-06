@@ -18,14 +18,13 @@ public class Tests {
         Person person = new Person();
         person.setName("Adam");
         person.setSurname("Nowak");
-        Date date = new GregorianCalendar(1995, Calendar.FEBRUARY, 11).getTime();
+        Date date = new GregorianCalendar(1995, Calendar.OCTOBER, 11).getTime();
         person.setDateOfBirth(date);
         person.setSex('M');
 
         String response = person.showInfo();
 
-        if(response.contains("Adam") && response.contains("Nowak") && response.contains("1992-02-11") && response.contains("M")){
-            // OK
+        if(response.contains("Adam") && response.contains("Nowak") && response.contains("1995-10-11") && response.contains("M")){
         } else {
             Assert.fail();
         }
