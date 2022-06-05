@@ -174,7 +174,7 @@ Klasa `Point3D` powinna:
 
 W klasie `Main` utwórz obiekty obu klas i przetestuj działanie. Następnie utwórz dwie tablice 100-elementowe, jedna dla klasy `Point2D` o nazwie `array2D`, a druga dla klasy `Point3D` o nazwie `array3D`. W obydwu tablicach wylosuj dla wszystkich elementów punkty przy użyciu utworzonych wcześniej metod. Sprawdź czy w tablicy `array3D` i `array2D` istnieją elementy mające wspólne składowe (x,y) tj. istnieją punkty `point2D(x1,y1)` i `point3D(x2,y2,z2)`, takie że x1=x2 i y1=y2. Jeśli takie pary istnieją wypisz je na ekranie (wykorzystaj metodę `toString()`. 
 
-###### W oparciu o opracowanie dr inż. Wojciecha Kozła
+###### W oparciu o opracowanie dr inż. Wojciecha Kozioła
 
 ###### Źródła
 
